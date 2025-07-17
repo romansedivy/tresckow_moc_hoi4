@@ -1,0 +1,425 @@
+technologies = {
+
+	# Year constants for Cold War era
+	@1950 = 22
+	@1955 = 24
+	@1960 = 26
+	@1965 = 28
+	@1970 = 30
+	@1975 = 32
+	@1980 = 34
+	@1985 = 36
+	@1990 = 38
+
+	# Cold War Infantry Equipment
+	infantry_weapons3 = {
+		enable_equipments = {
+			infantry_equipment_3
+		}
+
+		path = {
+			leads_to_tech = infantry_weapons4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1950
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1950 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1952.1.1
+			}
+		}
+	}
+
+	infantry_weapons4 = {
+		enable_equipments = {
+			infantry_equipment_4
+		}
+
+		path = {
+			leads_to_tech = infantry_weapons5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 1960
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1962.1.1
+			}
+		}
+	}
+
+	infantry_weapons5 = {
+		enable_equipments = {
+			infantry_equipment_5
+		}
+
+		path = {
+			leads_to_tech = infantry_weapons6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1970
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1972.1.1
+			}
+		}
+	}
+
+	infantry_weapons6 = {
+		enable_equipments = {
+			infantry_equipment_6
+		}
+
+		research_cost = 3.5
+		start_year = 1980
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1982.1.1
+			}
+		}
+	}
+
+	# Anti-Tank Weapons
+	improved_anti_tank = {
+		enable_equipments = {
+			anti_tank_equipment_3
+		}
+
+		path = {
+			leads_to_tech = advanced_anti_tank
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1955 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	advanced_anti_tank = {
+		enable_equipments = {
+			anti_tank_equipment_4
+		}
+
+		path = {
+			leads_to_tech = modern_anti_tank
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.5
+		start_year = 1965
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1965 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	modern_anti_tank = {
+		enable_equipments = {
+			anti_tank_equipment_5
+		}
+
+		research_cost = 3
+		start_year = 1975
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1975 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	# Special Forces Equipment
+	special_forces_equipment = {
+		enable_equipments = {
+			special_forces_equipment_1
+		}
+
+		path = {
+			leads_to_tech = advanced_special_forces
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1960 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	advanced_special_forces = {
+		enable_equipments = {
+			special_forces_equipment_2
+		}
+
+		research_cost = 3
+		start_year = 1980
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = @1980 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	# Body Armor Technology
+	body_armor = {
+		enable_equipments = {
+			body_armor_equipment_1
+		}
+
+		path = {
+			leads_to_tech = improved_body_armor
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1970
+		folder = {
+			name = support_folder
+			position = { x = 2 y = @1970 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 1.5
+				is_major = yes
+			}
+		}
+	}
+
+	improved_body_armor = {
+		enable_equipments = {
+			body_armor_equipment_2
+		}
+
+		research_cost = 2
+		start_year = 1985
+		folder = {
+			name = support_folder
+			position = { x = 2 y = @1985 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 1.5
+				is_major = yes
+			}
+		}
+	}
+
+	# Night Vision Equipment
+	night_vision = {
+		enable_equipments = {
+			night_vision_equipment_1
+		}
+
+		research_cost = 2
+		start_year = 1965
+		folder = {
+			name = support_folder
+			position = { x = 4 y = @1965 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 1.5
+				is_major = yes
+			}
+		}
+	}
+
+	# Communication Equipment
+	field_radio = {
+		enable_equipments = {
+			field_radio_equipment_1
+		}
+
+		path = {
+			leads_to_tech = portable_radio
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1950
+		folder = {
+			name = support_folder
+			position = { x = 6 y = @1950 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	portable_radio = {
+		enable_equipments = {
+			portable_radio_equipment_1
+		}
+
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = support_folder
+			position = { x = 6 y = @1970 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+}

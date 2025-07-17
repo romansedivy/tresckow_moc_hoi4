@@ -1,0 +1,189 @@
+l_english:
+ # Cold War Infantry Technologies
+ infantry_weapons3:0 "Advanced Infantry Weapons"
+ infantry_weapons3_desc:0 "The development of more effective small arms, including automatic rifles and improved ammunition, gives our infantry a significant advantage on the battlefield."
+ infantry_weapons4:0 "Modern Infantry Weapons"
+ infantry_weapons4_desc:0 "Advanced assault rifles, improved optics, and better ammunition design represent the next evolution in infantry combat effectiveness."
+ infantry_weapons5:0 "Contemporary Infantry Weapons"
+ infantry_weapons5_desc:0 "State-of-the-art infantry weapons featuring advanced materials, improved ergonomics, and enhanced reliability in all conditions."
+ infantry_weapons6:0 "Next-Generation Infantry Weapons"
+ infantry_weapons6_desc:0 "The latest developments in infantry weapons technology, incorporating advanced materials and cutting-edge design principles."
+ 
+ # Anti-Tank Technologies
+ improved_anti_tank:0 "Improved Anti-Tank Weapons"
+ improved_anti_tank_desc:0 "Development of more powerful anti-tank weapons to counter the new generation of heavily armored vehicles."
+ advanced_anti_tank:0 "Advanced Anti-Tank Weapons"
+ advanced_anti_tank_desc:0 "Sophisticated anti-tank systems including guided missiles and improved penetration capabilities."
+ modern_anti_tank:0 "Modern Anti-Tank Systems"
+ modern_anti_tank_desc:0 "State-of-the-art anti-tank weapons featuring advanced guidance systems and devastating firepower."
+ 
+ # Special Forces Technologies
+ special_forces_equipment:0 "Special Forces Equipment"
+ special_forces_equipment_desc:0 "Specialized equipment and weapons designed for elite military units operating in difficult conditions."
+ advanced_special_forces:0 "Advanced Special Forces Equipment"
+ advanced_special_forces_desc:0 "Cutting-edge equipment for special operations forces, including advanced communications and specialized weapons."
+ 
+ # Support Technologies
+ body_armor:0 "Body Armor"
+ body_armor_desc:0 "Personal protective equipment to reduce casualties among infantry forces."
+ improved_body_armor:0 "Improved Body Armor"
+ improved_body_armor_desc:0 "Advanced protective gear using modern materials for better protection and mobility."
+ 
+ night_vision:0 "Night Vision Equipment"
+ night_vision_desc:0 "Electronic devices that allow soldiers to see in low-light conditions, providing a significant tactical advantage."
+ 
+ field_radio:0 "Field Radio Equipment"
+ field_radio_desc:0 "Portable radio communication systems for better coordination between units."
+ portable_radio:0 "Portable Radio Systems"
+ portable_radio_desc:0 "Compact, reliable communication equipment for modern military operations."
+ 
+ # Armor Technologies
+ main_battle_tank_1:0 "First Generation MBT"
+ main_battle_tank_1_desc:0 "The first generation of main battle tanks, combining the firepower of heavy tanks with the mobility of medium tanks."
+ main_battle_tank_2:0 "Second Generation MBT"
+ main_battle_tank_2_desc:0 "Improved main battle tanks with better armor, more powerful guns, and enhanced fire control systems."
+ main_battle_tank_3:0 "Third Generation MBT"
+ main_battle_tank_3_desc:0 "Advanced main battle tanks featuring composite armor, sophisticated fire control, and improved mobility."
+ main_battle_tank_4:0 "Fourth Generation MBT"
+ main_battle_tank_4_desc:0 "The latest generation of main battle tanks with advanced armor systems, powerful guns, and cutting-edge technology."
+ 
+ # APC Technologies
+ armored_personnel_carrier_1:0 "Armored Personnel Carriers"
+ armored_personnel_carrier_1_desc:0 "Armored vehicles designed to transport infantry safely across the battlefield."
+ armored_personnel_carrier_2:0 "Improved APCs"
+ armored_personnel_carrier_2_desc:0 "Enhanced armored personnel carriers with better protection and mobility."
+ 
+ # IFV Technologies
+ infantry_fighting_vehicle:0 "Infantry Fighting Vehicles"
+ infantry_fighting_vehicle_desc:0 "Heavily armed and armored vehicles that can transport infantry and provide fire support."
+ advanced_ifv:0 "Advanced IFVs"
+ advanced_ifv_desc:0 "Next-generation infantry fighting vehicles with improved armor, weapons, and mobility."
+ 
+ # Tank Destroyer Technologies
+ cold_war_tank_destroyer_1:0 "Cold War Tank Destroyers"
+ cold_war_tank_destroyer_1_desc:0 "Specialized anti-tank vehicles designed to counter enemy armor formations."
+ cold_war_tank_destroyer_2:0 "Advanced Tank Destroyers"
+ cold_war_tank_destroyer_2_desc:0 "Improved tank destroyers with better armor penetration and mobility."
+ 
+ # Self-Propelled Artillery
+ cold_war_spg_1:0 "Self-Propelled Artillery"
+ cold_war_spg_1_desc:0 "Mobile artillery systems that can quickly reposition after firing."
+ cold_war_spg_2:0 "Improved Self-Propelled Artillery"
+ cold_war_spg_2_desc:0 "Enhanced mobile artillery with better range and accuracy."
+ cold_war_spg_3:0 "Advanced Self-Propelled Artillery"
+ cold_war_spg_3_desc:0 "State-of-the-art mobile artillery systems with advanced fire control."
+ 
+ # Anti-Aircraft Systems
+ cold_war_spaa_1:0 "Self-Propelled Anti-Aircraft"
+ cold_war_spaa_1_desc:0 "Mobile anti-aircraft systems for protecting ground forces from air attack."
+ cold_war_spaa_2:0 "Improved SPAA Systems"
+ cold_war_spaa_2_desc:0 "Enhanced self-propelled anti-aircraft systems with better tracking and firepower."
+ 
+ # SAM Systems
+ sam_system:0 "Surface-to-Air Missiles"
+ sam_system_desc:0 "Guided missile systems for engaging enemy aircraft at long range."
+ advanced_sam_system:0 "Advanced SAM Systems"
+ advanced_sam_system_desc:0 "Next-generation surface-to-air missile systems with improved guidance and range."
+ 
+ # Armor Technologies
+ composite_armor:0 "Composite Armor"
+ composite_armor_desc:0 "Advanced armor materials that provide better protection against modern weapons."
+ reactive_armor:0 "Reactive Armor"
+ reactive_armor_desc:0 "Explosive reactive armor that can defeat incoming projectiles."
+ 
+ # Equipment Names
+ infantry_equipment_3:0 "Cold War Infantry Equipment"
+ infantry_equipment_3_short:0 "CW Infantry Eq."
+ infantry_equipment_4:0 "Modern Infantry Equipment"
+ infantry_equipment_4_short:0 "Modern Infantry Eq."
+ infantry_equipment_5:0 "Advanced Infantry Equipment"
+ infantry_equipment_5_short:0 "Advanced Infantry Eq."
+ infantry_equipment_6:0 "Next-Gen Infantry Equipment"
+ infantry_equipment_6_short:0 "Next-Gen Infantry Eq."
+ 
+ anti_tank_equipment_3:0 "Improved Anti-Tank Equipment"
+ anti_tank_equipment_3_short:0 "Improved AT Eq."
+ anti_tank_equipment_4:0 "Advanced Anti-Tank Equipment"
+ anti_tank_equipment_4_short:0 "Advanced AT Eq."
+ anti_tank_equipment_5:0 "Modern Anti-Tank Equipment"
+ anti_tank_equipment_5_short:0 "Modern AT Eq."
+ 
+ special_forces_equipment_1:0 "Special Forces Equipment"
+ special_forces_equipment_1_short:0 "SF Equipment"
+ special_forces_equipment_2:0 "Advanced SF Equipment"
+ special_forces_equipment_2_short:0 "Advanced SF Eq."
+ 
+ body_armor_equipment_1:0 "Body Armor"
+ body_armor_equipment_1_short:0 "Body Armor"
+ body_armor_equipment_2:0 "Improved Body Armor"
+ body_armor_equipment_2_short:0 "Improved Armor"
+ 
+ night_vision_equipment_1:0 "Night Vision Equipment"
+ night_vision_equipment_1_short:0 "Night Vision"
+ 
+ field_radio_equipment_1:0 "Field Radio"
+ field_radio_equipment_1_short:0 "Field Radio"
+ portable_radio_equipment_1:0 "Portable Radio"
+ portable_radio_equipment_1_short:0 "Portable Radio"
+ 
+ # Armor Equipment Names
+ main_battle_tank_equipment_1:0 "First Generation MBT"
+ main_battle_tank_equipment_1_short:0 "Gen 1 MBT"
+ main_battle_tank_equipment_2:0 "Second Generation MBT"
+ main_battle_tank_equipment_2_short:0 "Gen 2 MBT"
+ main_battle_tank_equipment_3:0 "Third Generation MBT"
+ main_battle_tank_equipment_3_short:0 "Gen 3 MBT"
+ main_battle_tank_equipment_4:0 "Fourth Generation MBT"
+ main_battle_tank_equipment_4_short:0 "Gen 4 MBT"
+ 
+ apc_equipment_1:0 "Armored Personnel Carrier"
+ apc_equipment_1_short:0 "APC"
+ apc_equipment_2:0 "Improved APC"
+ apc_equipment_2_short:0 "Improved APC"
+ 
+ ifv_equipment_1:0 "Infantry Fighting Vehicle"
+ ifv_equipment_1_short:0 "IFV"
+ ifv_equipment_2:0 "Advanced IFV"
+ ifv_equipment_2_short:0 "Advanced IFV"
+ 
+ cold_war_tank_destroyer_equipment_1:0 "Cold War Tank Destroyer"
+ cold_war_tank_destroyer_equipment_1_short:0 "CW Tank Destroyer"
+ cold_war_tank_destroyer_equipment_2:0 "Advanced Tank Destroyer"
+ cold_war_tank_destroyer_equipment_2_short:0 "Advanced TD"
+ 
+ cold_war_spg_equipment_1:0 "Self-Propelled Artillery"
+ cold_war_spg_equipment_1_short:0 "SPG"
+ cold_war_spg_equipment_2:0 "Improved SPG"
+ cold_war_spg_equipment_2_short:0 "Improved SPG"
+ cold_war_spg_equipment_3:0 "Advanced SPG"
+ cold_war_spg_equipment_3_short:0 "Advanced SPG"
+ 
+ cold_war_spaa_equipment_1:0 "Self-Propelled Anti-Aircraft"
+ cold_war_spaa_equipment_1_short:0 "SPAA"
+ cold_war_spaa_equipment_2:0 "Improved SPAA"
+ cold_war_spaa_equipment_2_short:0 "Improved SPAA"
+ 
+ sam_equipment_1:0 "Surface-to-Air Missiles"
+ sam_equipment_1_short:0 "SAM"
+ sam_equipment_2:0 "Advanced SAM System"
+ sam_equipment_2_short:0 "Advanced SAM"
+ 
+ # Unit Names
+ modern_mechanized:0 "Modern Mechanized Infantry"
+ modern_mechanized_short:0 "Mod. Mechanized"
+ ifv_infantry:0 "IFV Infantry"
+ ifv_infantry_short:0 "IFV Infantry"
+ special_forces:0 "Special Forces"
+ special_forces_short:0 "Special Forces"
+ main_battle_tank:0 "Main Battle Tank"
+ main_battle_tank_short:0 "MBT"
+ modern_anti_tank:0 "Modern Anti-Tank"
+ modern_anti_tank_short:0 "Modern AT"
+ sam_unit:0 "SAM Unit"
+ sam_unit_short:0 "SAM Unit"
+ modern_motorized:0 "Modern Motorized Infantry"
+ modern_motorized_short:0 "Mod. Motorized"
+ modern_engineer:0 "Modern Engineer Company"
+ modern_engineer_short:0 "Mod. Engineers"
+ modern_recon:0 "Modern Recon Company"
+ modern_recon_short:0 "Mod. Recon"
