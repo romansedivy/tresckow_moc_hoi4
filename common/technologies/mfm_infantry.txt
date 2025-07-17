@@ -1,0 +1,45 @@
+technologies = {
+    simple_exosuits = {
+        folder = {
+			name = infantry_folder
+            position = { 
+                x = 0
+                y = 2
+            }
+		}
+        start_year = 1936
+        research_cost = 2.5
+        production_speed_buildings_factor = 0.10
+
+        category_light_infantry = {
+			maximum_speed = 0.5
+		}
+        path = {
+            leads_to_tech = early_power_armor
+            research_cost_coeff = 1
+        }
+        categories = {
+            cat_power_armor
+		}
+	}
+    early_power_armor = {
+        folder = {
+			name = infantry_folder 
+            position = { 
+                x = 0
+                y = 4
+            }
+		}
+        start_year = 1938
+        research_cost = 2.5
+
+        enable_equipments = {
+            power_armor_0
+        }
+
+        categories = {
+            cat_power_armor
+		}
+
+    }
+} 

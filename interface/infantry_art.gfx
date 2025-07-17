@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_simple_exosuits_medium"
+		textureFile = "gfx/interface/technologies/tactical.dds"
+	}
+	spriteType = {
+		name = "GFX_early_power_armor_medium"
+		textureFile = "gfx/interface/technologies/tactical.dds"
+	}
+		
+}		

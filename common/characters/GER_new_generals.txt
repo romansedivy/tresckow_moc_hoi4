@@ -1,0 +1,48 @@
+characters = {
+
+
+ ######   ######## ##    ## ######## ########     ###    ##        ######  
+##    ##  ##       ###   ## ##       ##     ##   ## ##   ##       ##    ## 
+##        ##       ####  ## ##       ##     ##  ##   ##  ##       ##       
+##   #### ######   ## ## ## ######   ########  ##     ## ##        ######  
+##    ##  ##       ##  #### ##       ##   ##   ######### ##             ## 
+##    ##  ##       ##   ### ##       ##    ##  ##     ## ##       ##    ## 
+ ######   ######## ##    ## ######## ##     ## ##     ## ########  ######  
+
+
+	GER_henning_von_tresckow = {
+		name = GER_henning_von_tresckow
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_henning_von_tresckow
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer harsh_leader brilliant_strategist }
+			skill = 4
+			attack_skill = 8
+			defense_skill = 8
+			planning_skill = 4
+			logistics_skill = 8
+			}
+		}
+	GER_claus_von_stauffenberg = {
+		name = GER_claus_von_stauffenberg
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_claus_von_stauffenberg
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer harsh_leader brilliant_strategist }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 8
+			}
+		}
+
+	}
+
+	
