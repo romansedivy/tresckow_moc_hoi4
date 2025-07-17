@@ -11,7 +11,7 @@ technologies = {
 	@1985 = 36
 	@1990 = 38
 
-	# Cold War Infantry Equipment
+	# Cold War Infantry Equipment - Every 5 years
 	infantry_weapons3 = {
 		enable_equipments = {
 			infantry_equipment_3
@@ -57,6 +57,40 @@ technologies = {
 		}
 
 		research_cost = 2.5
+		start_year = 1955
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1955 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1957.1.1
+			}
+		}
+	}
+
+	infantry_weapons5 = {
+		enable_equipments = {
+			infantry_equipment_5
+		}
+
+		path = {
+			leads_to_tech = infantry_weapons6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
 		start_year = 1960
 		folder = {
 			name = infantry_folder
@@ -80,17 +114,51 @@ technologies = {
 		}
 	}
 
-	infantry_weapons5 = {
+	infantry_weapons6 = {
 		enable_equipments = {
-			infantry_equipment_5
+			infantry_equipment_6
 		}
 
 		path = {
-			leads_to_tech = infantry_weapons6
+			leads_to_tech = infantry_weapons7
 			research_cost_coeff = 1
 		}
 
-		research_cost = 3
+		research_cost = 3.5
+		start_year = 1965
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1965 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1967.1.1
+			}
+		}
+	}
+
+	infantry_weapons7 = {
+		enable_equipments = {
+			infantry_equipment_7
+		}
+
+		path = {
+			leads_to_tech = infantry_weapons8
+			research_cost_coeff = 1
+		}
+
+		research_cost = 4
 		start_year = 1970
 		folder = {
 			name = infantry_folder
@@ -114,12 +182,51 @@ technologies = {
 		}
 	}
 
-	infantry_weapons6 = {
+	infantry_weapons8 = {
 		enable_equipments = {
-			infantry_equipment_6
+			infantry_equipment_8
 		}
 
-		research_cost = 3.5
+		path = {
+			leads_to_tech = infantry_weapons9
+			research_cost_coeff = 1
+		}
+
+		research_cost = 4.5
+		start_year = 1975
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1975 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1977.1.1
+			}
+		}
+	}
+
+	infantry_weapons9 = {
+		enable_equipments = {
+			infantry_equipment_9
+		}
+
+		path = {
+			leads_to_tech = infantry_weapons10
+			research_cost_coeff = 1
+		}
+
+		research_cost = 5
 		start_year = 1980
 		folder = {
 			name = infantry_folder
@@ -143,7 +250,70 @@ technologies = {
 		}
 	}
 
-	# Anti-Tank Weapons
+	infantry_weapons10 = {
+		enable_equipments = {
+			infantry_equipment_10
+		}
+
+		path = {
+			leads_to_tech = infantry_weapons11
+			research_cost_coeff = 1
+		}
+
+		research_cost = 5.5
+		start_year = 1985
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1985 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1987.1.1
+			}
+		}
+	}
+
+	infantry_weapons11 = {
+		enable_equipments = {
+			infantry_equipment_11
+		}
+
+		research_cost = 6
+		start_year = 1990
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1992.1.1
+			}
+		}
+	}
+
+	# Anti-Tank Weapons - Every 5 years
 	improved_anti_tank = {
 		enable_equipments = {
 			anti_tank_equipment_3
@@ -155,10 +325,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1955
+		start_year = 1950
 		folder = {
 			name = support_folder
-			position = { x = 0 y = @1955 }
+			position = { x = 0 y = @1950 }
 		}
 
 		categories = {
@@ -180,11 +350,71 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = modern_anti_tank
+			leads_to_tech = modern_anti_tank_weapons
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2.5
+		start_year = 1955
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1955 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	modern_anti_tank_weapons = {
+		enable_equipments = {
+			anti_tank_equipment_5
+		}
+
+		path = {
+			leads_to_tech = contemporary_anti_tank
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1960 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	contemporary_anti_tank = {
+		enable_equipments = {
+			anti_tank_equipment_6
+		}
+
+		path = {
+			leads_to_tech = next_gen_anti_tank
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3.5
 		start_year = 1965
 		folder = {
 			name = support_folder
@@ -204,16 +434,106 @@ technologies = {
 		}
 	}
 
-	modern_anti_tank = {
+	next_gen_anti_tank = {
 		enable_equipments = {
-			anti_tank_equipment_5
+			anti_tank_equipment_7
 		}
 
-		research_cost = 3
+		path = {
+			leads_to_tech = advanced_guided_at
+			research_cost_coeff = 1
+		}
+
+		research_cost = 4
+		start_year = 1970
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1970 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	advanced_guided_at = {
+		enable_equipments = {
+			anti_tank_equipment_8
+		}
+
+		path = {
+			leads_to_tech = modern_guided_at
+			research_cost_coeff = 1
+		}
+
+		research_cost = 4.5
 		start_year = 1975
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1975 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	modern_guided_at = {
+		enable_equipments = {
+			anti_tank_equipment_9
+		}
+
+		path = {
+			leads_to_tech = future_anti_tank
+			research_cost_coeff = 1
+		}
+
+		research_cost = 5
+		start_year = 1980
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1980 }
+		}
+
+		categories = {
+			support_weapons
+		}
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
+	future_anti_tank = {
+		enable_equipments = {
+			anti_tank_equipment_10
+		}
+
+		research_cost = 5.5
+		start_year = 1985
+		folder = {
+			name = support_folder
+			position = { x = 0 y = @1985 }
 		}
 
 		categories = {
@@ -265,11 +585,16 @@ technologies = {
 			special_forces_equipment_2
 		}
 
+		path = {
+			leads_to_tech = modern_special_forces
+			research_cost_coeff = 1
+		}
+
 		research_cost = 3
-		start_year = 1980
+		start_year = 1975
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1980 }
+			position = { x = 2 y = @1975 }
 		}
 
 		categories = {
@@ -285,137 +610,24 @@ technologies = {
 		}
 	}
 
-	# Body Armor Technology
-	body_armor = {
+	modern_special_forces = {
 		enable_equipments = {
-			body_armor_equipment_1
+			special_forces_equipment_3
 		}
 
-		path = {
-			leads_to_tech = improved_body_armor
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1970
+		research_cost = 4
+		start_year = 1990
 		folder = {
-			name = support_folder
-			position = { x = 2 y = @1970 }
+			name = infantry_folder
+			position = { x = 2 y = @1990 }
 		}
 
 		categories = {
-			support_weapons
+			infantry_weapons
 		}
 
 		ai_will_do = {
 			base = 1
-			modifier = {
-				factor = 1.5
-				is_major = yes
-			}
-		}
-	}
-
-	improved_body_armor = {
-		enable_equipments = {
-			body_armor_equipment_2
-		}
-
-		research_cost = 2
-		start_year = 1985
-		folder = {
-			name = support_folder
-			position = { x = 2 y = @1985 }
-		}
-
-		categories = {
-			support_weapons
-		}
-
-		ai_will_do = {
-			base = 1
-			modifier = {
-				factor = 1.5
-				is_major = yes
-			}
-		}
-	}
-
-	# Night Vision Equipment
-	night_vision = {
-		enable_equipments = {
-			night_vision_equipment_1
-		}
-
-		research_cost = 2
-		start_year = 1965
-		folder = {
-			name = support_folder
-			position = { x = 4 y = @1965 }
-		}
-
-		categories = {
-			support_weapons
-		}
-
-		ai_will_do = {
-			base = 1
-			modifier = {
-				factor = 1.5
-				is_major = yes
-			}
-		}
-	}
-
-	# Communication Equipment
-	field_radio = {
-		enable_equipments = {
-			field_radio_equipment_1
-		}
-
-		path = {
-			leads_to_tech = portable_radio
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1950
-		folder = {
-			name = support_folder
-			position = { x = 6 y = @1950 }
-		}
-
-		categories = {
-			support_weapons
-		}
-
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-
-	portable_radio = {
-		enable_equipments = {
-			portable_radio_equipment_1
-		}
-
-		research_cost = 2
-		start_year = 1970
-		folder = {
-			name = support_folder
-			position = { x = 6 y = @1970 }
-		}
-
-		categories = {
-			support_weapons
-		}
-
-		ai_will_do = {
-			base = 2
 			modifier = {
 				factor = 2
 				is_major = yes

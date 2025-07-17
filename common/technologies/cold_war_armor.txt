@@ -11,7 +11,7 @@ technologies = {
 	@1985 = 36
 	@1990 = 38
 
-	# Main Battle Tanks (MBT)
+	# Main Battle Tanks - Every 5 years (1950-1990)
 	main_battle_tank_1 = {
 		enable_equipments = {
 			main_battle_tank_equipment_1
@@ -60,6 +60,43 @@ technologies = {
 		}
 
 		research_cost = 3.5
+		start_year = 1955
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1955 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1957.1.1
+			}
+		}
+	}
+
+	main_battle_tank_3 = {
+		enable_equipments = {
+			main_battle_tank_equipment_3
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 4
 		start_year = 1960
 		folder = {
 			name = armour_folder
@@ -86,17 +123,54 @@ technologies = {
 		}
 	}
 
-	main_battle_tank_3 = {
+	main_battle_tank_4 = {
 		enable_equipments = {
-			main_battle_tank_equipment_3
+			main_battle_tank_equipment_4
 		}
 
 		path = {
-			leads_to_tech = main_battle_tank_4
+			leads_to_tech = main_battle_tank_5
 			research_cost_coeff = 1
 		}
 
-		research_cost = 4
+		research_cost = 4.5
+		start_year = 1965
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1965 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1967.1.1
+			}
+		}
+	}
+
+	main_battle_tank_5 = {
+		enable_equipments = {
+			main_battle_tank_equipment_5
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank_6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 5
 		start_year = 1970
 		folder = {
 			name = armour_folder
@@ -123,12 +197,54 @@ technologies = {
 		}
 	}
 
-	main_battle_tank_4 = {
+	main_battle_tank_6 = {
 		enable_equipments = {
-			main_battle_tank_equipment_4
+			main_battle_tank_equipment_6
 		}
 
-		research_cost = 4.5
+		path = {
+			leads_to_tech = main_battle_tank_7
+			research_cost_coeff = 1
+		}
+
+		research_cost = 5.5
+		start_year = 1975
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1975 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1977.1.1
+			}
+		}
+	}
+
+	main_battle_tank_7 = {
+		enable_equipments = {
+			main_battle_tank_equipment_7
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank_8
+			research_cost_coeff = 1
+		}
+
+		research_cost = 6
 		start_year = 1980
 		folder = {
 			name = armour_folder
@@ -155,7 +271,76 @@ technologies = {
 		}
 	}
 
-	# Armored Personnel Carriers (APC)
+	main_battle_tank_8 = {
+		enable_equipments = {
+			main_battle_tank_equipment_8
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank_9
+			research_cost_coeff = 1
+		}
+
+		research_cost = 6.5
+		start_year = 1985
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1985 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1987.1.1
+			}
+		}
+	}
+
+	main_battle_tank_9 = {
+		enable_equipments = {
+			main_battle_tank_equipment_9
+		}
+
+		research_cost = 7
+		start_year = 1990
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1990 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		ai_will_do = {
+			base = 3
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+			modifier = {
+				factor = 1.5
+				date > 1992.1.1
+			}
+		}
+	}
+
+	# Armored Personnel Carriers - Every 10 years
 	armored_personnel_carrier_1 = {
 		enable_equipments = {
 			apc_equipment_1
@@ -193,7 +378,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = infantry_fighting_vehicle
+			leads_to_tech = armored_personnel_carrier_3
 			research_cost_coeff = 1
 		}
 
@@ -218,14 +403,13 @@ technologies = {
 		}
 	}
 
-	# Infantry Fighting Vehicles (IFV)
-	infantry_fighting_vehicle = {
+	armored_personnel_carrier_3 = {
 		enable_equipments = {
-			ifv_equipment_1
+			apc_equipment_3
 		}
 
 		path = {
-			leads_to_tech = advanced_ifv
+			leads_to_tech = infantry_fighting_vehicle
 			research_cost_coeff = 1
 		}
 
@@ -250,284 +434,48 @@ technologies = {
 		}
 	}
 
+	# Infantry Fighting Vehicles
+	infantry_fighting_vehicle = {
+		enable_equipments = {
+			ifv_equipment_1
+		}
+
+		path = {
+			leads_to_tech = advanced_ifv
+			research_cost_coeff = 1
+		}
+
+		research_cost = 4
+		start_year = 1980
+		folder = {
+			name = armour_folder
+			position = { x = 2 y = @1980 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+
 	advanced_ifv = {
 		enable_equipments = {
 			ifv_equipment_2
 		}
 
-		research_cost = 4
+		research_cost = 4.5
 		start_year = 1985
 		folder = {
 			name = armour_folder
 			position = { x = 2 y = @1985 }
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-
-	# Tank Destroyers
-	cold_war_tank_destroyer_1 = {
-		enable_equipments = {
-			cold_war_tank_destroyer_equipment_1
-		}
-
-		path = {
-			leads_to_tech = cold_war_tank_destroyer_2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.5
-		start_year = 1955
-		folder = {
-			name = armour_folder
-			position = { x = 4 y = @1955 }
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-
-		ai_will_do = {
-			base = 1
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-
-	cold_war_tank_destroyer_2 = {
-		enable_equipments = {
-			cold_war_tank_destroyer_equipment_2
-		}
-
-		research_cost = 3
-		start_year = 1970
-		folder = {
-			name = armour_folder
-			position = { x = 4 y = @1970 }
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-
-		ai_will_do = {
-			base = 1
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-
-	# Self-Propelled Artillery
-	cold_war_spg_1 = {
-		enable_equipments = {
-			cold_war_spg_equipment_1
-		}
-
-		path = {
-			leads_to_tech = cold_war_spg_2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.5
-		start_year = 1955
-		folder = {
-			name = armour_folder
-			position = { x = 6 y = @1955 }
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-
-	cold_war_spg_2 = {
-		enable_equipments = {
-			cold_war_spg_equipment_2
-		}
-
-		path = {
-			leads_to_tech = cold_war_spg_3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 3
-		start_year = 1965
-		folder = {
-			name = armour_folder
-			position = { x = 6 y = @1965 }
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-
-	cold_war_spg_3 = {
-		enable_equipments = {
-			cold_war_spg_equipment_3
-		}
-
-		research_cost = 3.5
-		start_year = 1980
-		folder = {
-			name = armour_folder
-			position = { x = 6 y = @1980 }
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-
-	# Anti-Aircraft Vehicles
-	cold_war_spaa_1 = {
-		enable_equipments = {
-			cold_war_spaa_equipment_1
-		}
-
-		path = {
-			leads_to_tech = cold_war_spaa_2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1955
-		folder = {
-			name = armour_folder
-			position = { x = 8 y = @1955 }
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-
-		ai_will_do = {
-			base = 1
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-
-	cold_war_spaa_2 = {
-		enable_equipments = {
-			cold_war_spaa_equipment_2
-		}
-
-		path = {
-			leads_to_tech = sam_system
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.5
-		start_year = 1965
-		folder = {
-			name = armour_folder
-			position = { x = 8 y = @1965 }
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-
-		ai_will_do = {
-			base = 1
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-
-	# Surface-to-Air Missile Systems
-	sam_system = {
-		enable_equipments = {
-			sam_equipment_1
-		}
-
-		path = {
-			leads_to_tech = advanced_sam_system
-			research_cost_coeff = 1
-		}
-
-		research_cost = 3
-		start_year = 1975
-		folder = {
-			name = armour_folder
-			position = { x = 8 y = @1975 }
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-
-		ai_will_do = {
-			base = 2
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-
-	advanced_sam_system = {
-		enable_equipments = {
-			sam_equipment_2
-		}
-
-		research_cost = 3.5
-		start_year = 1985
-		folder = {
-			name = armour_folder
-			position = { x = 8 y = @1985 }
 		}
 
 		categories = {
